@@ -1,0 +1,51 @@
+// Questão 1
+// let n1: number = Number(prompt('Digite um número:'));
+// let n2: number = Number(prompt('Digite outro número:'))
+
+// let soma: number = n1 + n2;
+
+// alert(soma);
+
+// Questão 2
+// let n1: number = Number(prompt('Digite um número:'));
+// if (n1 % 2 === 0) {
+//     alert('Este número é par!');
+// } else {
+//     alert('Este número é ímpar!');
+// }
+
+// Questão 3
+// let nota1: number = Number(prompt('Digite a primeira nota:'));
+// let nota2: number = Number(prompt('Digite a segunda nota:'));
+// let nota3: number = Number(prompt('Digite a terceira nota:'));
+
+// let mediaDasNotas = (nota1 + nota2 + nota3) / 3;
+
+// if (mediaDasNotas >= 7) {
+//     alert('Você foi aprovado! Sua média foi ' + mediaDasNotas + '.');
+// } else {
+//     alert('Você foi reprovado! Sua média foi ' + mediaDasNotas + '.');
+// }
+
+
+// Questão 4
+
+let numero: number = Number(prompt('Para saber a tabuada de um número, digite-o:'));
+
+let i: number;
+let tabuada: number;
+
+for (i = 0; i <= 10; i++) {
+    tabuada = numero * i;
+    alert(tabuada);
+}
+
+// let numeros: number[] = [];
+// let i: number;
+// for (i = 0; i < 5; i++) {
+//     if (lista[i] > maiorAteAgora) {
+//         maiorAteAgora
+//     }
+// }
+
+
